@@ -5,111 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ScorpionKM Hosting</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #0d0d0d;
-      color: #f5f5f5;
-    }
-    header {
-      background: #1e1e1e;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      color: #aaa;
-      font-size: 1.1rem;
-    }
-    section {
-      padding: 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-    h2 {
-      border-bottom: 2px solid #4caf50;
-      padding-bottom: 0.5rem;
-      margin-bottom: 1.5rem;
-    }
-    .plans {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 1.5rem;
-    }
-    .card {
-      background: #1b1b1b;
-      border-radius: 12px;
-      padding: 1.5rem;
-      box-shadow: 0 0 15px #00000066;
-      transition: transform 0.2s ease;
-    }
-    .card:hover {
-      transform: scale(1.03);
-    }
-    .card h3 {
-      margin-top: 0;
-    }
-    .price {
-      font-size: 1.25rem;
-      color: #4caf50;
-      font-weight: bold;
-    }
-    .footer {
-      text-align: center;
-      padding: 2rem;
-      background: #1a1a1a;
-      color: #777;
-    }
-    a.button {
-      display: inline-block;
-      margin: 0.5rem;
-      padding: 0.75rem 1.5rem;
-      background: #4caf50;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-    }
-    .button:hover {
-      background: #45a049;
-    }
-    .centered {
-      text-align: center;
-    }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #0d0d0d; color: #f5f5f5; }
+    header { background: #1e1e1e; padding: 2rem; text-align: center; }
+    header h1 { margin: 0; font-size: 2.5rem; }
+    header p { color: #aaa; font-size: 1.1rem; }
+    section { padding: 2rem; max-width: 1000px; margin: auto; }
+    h2 { border-bottom: 2px solid #4caf50; padding-bottom: 0.5rem; margin-bottom: 1.5rem; }
+    .plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5rem; }
+    .card { background: #1b1b1b; border-radius: 12px; padding: 1.5rem; box-shadow: 0 0 15px #00000066; transition: transform 0.2s ease; }
+    .card:hover { transform: scale(1.03); }
+    .card h3 { margin-top: 0; }
+    .price { font-size: 1.25rem; color: #4caf50; font-weight: bold; }
+    .footer { text-align: center; padding: 2rem; background: #1a1a1a; color: #777; }
+    a.button { display: inline-block; margin: 0.5rem; padding: 0.75rem 1.5rem; background: #4caf50; color: #fff; text-decoration: none; border-radius: 6px; font-weight: bold; }
+    .button:hover { background: #45a049; }
+    .centered { text-align: center; }
+    .note { font-size: 0.9rem; color: #aaa; margin-top: 0.5rem; }
+    .addons { margin-top: 2rem; }
+    .addons ul { list-style: none; padding: 0; }
+    .addons li { background: #222; margin: 0.5rem 0; padding: 1rem; border-radius: 8px; }
+    .os-fee { margin-top: 2rem; font-size: 0.95rem; background: #222; padding: 1rem; border-radius: 8px; }
   </style>
 </head>
 <body>
   <header>
     <h1>ScorpionKM Hosting</h1>
-    <p>Affordable & Fast Game Servers and VMs – Powered by Linux, Ryzen & Xeon</p>
+    <p>Affordable & Reliable Game Servers and VMs – Benchmarked with European VPS pricing</p>
   </header>
 
   <section>
     <h2>Game Server Plans</h2>
     <div class="plans">
       <div class="card">
-        <h3>Starter</h3>
-        <p>2 vCPU / 2 GB RAM / 10 GB SSD</p>
-        <p class="price">€2.99/mo</p>
+        <h3>Vanilla Minecraft</h3>
+        <p>4–8 Players / 2–4 GB RAM / 10 GB SSD</p>
+        <p class="price">€5/mo</p>
       </div>
       <div class="card">
-        <h3>Standard</h3>
-        <p>3 vCPU / 4 GB RAM / 20 GB SSD</p>
-        <p class="price">€4.99/mo</p>
+        <h3>Valheim & Core Games</h3>
+        <p>6–10 Players / 4–6 GB RAM / 15 GB SSD</p>
+        <p class="price">€12/mo</p>
       </div>
       <div class="card">
-        <h3>Modded</h3>
-        <p>4 vCPU / 6 GB RAM / 25 GB SSD</p>
-        <p class="price">€6.99/mo</p>
+        <h3>Modded Minecraft</h3>
+        <p>8–12 Players / 6–8 GB RAM / 20 GB SSD</p>
+        <p class="price">€16/mo</p>
       </div>
       <div class="card">
-        <h3>Heavy Modded</h3>
-        <p>6 vCPU / 10 GB RAM / 30+ GB SSD</p>
-        <p class="price">€9.99/mo</p>
+        <h3>Custom Game Server</h3>
+        <p>10–20+ Players / 8–12 GB RAM / 20+ GB SSD</p>
+        <p class="price">€24+/mo</p>
       </div>
     </div>
   </section>
@@ -119,32 +64,50 @@
     <div class="plans">
       <div class="card">
         <h3>Tiny VM</h3>
-        <p>2 vCPU / 2 GB RAM / 20 GB SSD</p>
-        <p class="price">€3.00/mo</p>
+        <p>2 vCPU / 4 GB RAM / 50 GB SSD</p>
+        <p class="price">€6/mo</p>
       </div>
       <div class="card">
-        <h3>DevBox</h3>
-        <p>4 vCPU / 4 GB RAM / 40 GB SSD</p>
-        <p class="price">€5.00/mo</p>
+        <h3>Small VM</h3>
+        <p>4 vCPU / 8 GB RAM / 80 GB SSD</p>
+        <p class="price">€10/mo</p>
       </div>
       <div class="card">
-        <h3>Builder</h3>
-        <p>6 vCPU / 8 GB RAM / 60 GB SSD</p>
-        <p class="price">€7.99/mo</p>
+        <h3>Medium VM</h3>
+        <p>6 vCPU / 12 GB RAM / 120 GB SSD</p>
+        <p class="price">€15/mo</p>
       </div>
       <div class="card">
-        <h3>Full Node</h3>
-        <p>12 Threads / 36 GB RAM / 500 GB SSD</p>
-        <p class="price">€14.99/mo</p>
+        <h3>Large VM</h3>
+        <p>8 vCPU / 16 GB RAM / 160 GB SSD</p>
+        <p class="price">€20/mo</p>
       </div>
+      <div class="card">
+        <h3>Full Fujitsu Server (Exclusive)</h3>
+        <p>16 Threads / 36 GB RAM / ~450 GB usable SSD</p>
+        <p class="price">€40/mo</p>
+        <p class="note">Full root access & shared 200/150 Mbps. Exclusive: VM plans unavailable when rented.</p>
+      </div>
+    </div>
+    <div class="addons">
+      <h3>Add-ons</h3>
+      <ul>
+        <li><strong>Additional Storage (max. ~450 GB total):</strong> +50 GB SSD for €3/mo</li>
+        <li><strong>Custom Port Forwarding:</strong> €2/mo (secure firewall rules applied)</li>
+      </ul>
+      <p class="note">Pricing benchmarked against LowEndTalk and European VPS plans (e.g., Hetzner, Scaleway).</p>
+    </div>
+    <div class="os-fee">
+      <p><strong>OS Installation Fee (one-time):</strong></p>
+      <p>• Stock (Debian, Ubuntu, CentOS, Fedora): Free</p>
+      <p>• Specialty (Windows Server, RHEL, SUSE, BSDs, others): +€3</p>
     </div>
   </section>
 
   <section class="centered">
     <h2>Get Started</h2>
-    <p>Contact me on Discord: <strong>.mau_mau</strong> or use the links below to place your order:</p>
-    <a href="https://paypal.me/maumau69420" class="button">Pay with PayPal</a>
-    <a href="https://ko-fi.com/scorpionkm469" class="button">Support via Ko-fi</a>
+    <p>Contact me on Discord: <strong>scorpionkm</strong> or place your order via Ko-fi:</p>
+    <a href="https://ko-fi.com/scorpionkmhost" class="button">Order on Ko-fi</a>
   </section>
 
   <div class="footer">
